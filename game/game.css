@@ -1,0 +1,82 @@
+.root{
+    text-align: right;
+}
+
+#players{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+.h1{
+    font-size:4em ;
+    font-weight: bold;
+    color: plum;
+    padding-right: 15vw;
+    padding-top: 0;
+}
+.div_p{
+    padding: 7vw;
+    padding-top: 0;
+    padding-bottom: 0vh;
+}
+.img{
+    padding-top: 2vh;
+    width: 10vw;
+   
+}
+#btn1{
+    margin-top: 0;
+    margin-right: 90vw;
+}
+.player{
+    text-align: right;
+    border-top: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 7vw;
+    border-color: plum;
+}
+.submit{
+    background-color: rgb(196, 162, 196);
+    border: none;
+}
+.open_img{
+    display: block;
+    height: 80vh;
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
+.close_img1{
+    display: none;
+}
+.close_img2{
+    display: none;
+}
+#timer_d{
+    font-size: 8em;
+    margin-left:10vw ;
+    margin-top: -55vh;
+    position: absolute;
+    color: red;
+}
+#players_list{
+    margin-left:80vw ;
+    margin-top: -85vh;
+    position: absolute;
+}
+.button{
+    margin-top: -15vh;
+    position: absolute;
+    margin-left:85vw ;
+    
+}
+.mouse_sentence{
+    font-size:x-large;
+    color: black;
+    
+}
+.on{
+    color:plum;
+}
